@@ -11,8 +11,6 @@ var DeviceInformationLoader = function (require, exports, module) {
     module.exports = deviceInformation;
 };
 
-DeviceInformationLoader(require, exports, module);
-
 cordova.define("cordova/plugin/DeviceInformation", DeviceInformationLoader);
 
 
