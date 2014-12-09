@@ -1,4 +1,3 @@
-/*var DeviceInformationLoader = function (require, exports, module) {*/
     var exec = require("cordova/exec");
     
     function DeviceInformation () {}
@@ -9,9 +8,6 @@
     
     var deviceInformation = new DeviceInformation();
     module.exports = deviceInformation;
-/*};*/
-
-/*cordova.define("cordova/plugin/DeviceInformation", DeviceInformationLoader);*/
 
 
 
