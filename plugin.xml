@@ -19,7 +19,7 @@
         <clobbers target="cordova.plugins.deviceInformation" />
     </js-module>
     
-    <asset src="www/deviceinformation.js" target="deviceinformation.js" />
+   <!-- <asset src="www/deviceinformation.js" target="deviceinformation.js" /> -->
    
     <platform name="android">
         
